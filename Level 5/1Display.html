@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* INLINE BLOCK*/
+        .a{
+            height:200px;
+            width:200px;
+            background-color:red;
+            display:inline-block;
+        }
+
+        /* INLINE */
+        .b{
+            height:200px;
+            width:200px;
+            background-color:red;
+            display:inline;
+        }
+
+        /*BLOCK*/
+        .c{
+            height:200px;
+            width:200px;
+            background-color:red;
+            margin:10px;
+            display:block;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <h1>DISPLAY INLINE BLOCK</h1>
+    <div id="first" class="a">BOX 1</div>
+    <div id="second" class="a">BOX 2</div>
+    <hr>
+    <h1>DISPLAY INLINE </h1>
+    <div id="first" class="b">BOX 1</div>
+    <div id="second" class="b">BOX 2</div>
+    <hr>
+    <h1>DISPLAY BLOCK</h1>
+    <div id="first" class="c">BOX 1</div>
+    <div id="second" class="c">BOX 2</div>
+
 </body>
 </html>
